@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 282
+  Height = 513
+  Top = 281
+  Width = 614
+  Caption = 'Form1'
+  ClientHeight = 513
+  ClientWidth = 614
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Pridaj: TButton
+    Left = 50
+    Height = 36
+    Top = 128
+    Width = 130
+    Caption = 'Pridaj'
+    OnClick = PridajClick
+    TabOrder = 0
+  end
+  object Cislo: TEdit
+    Left = 50
+    Height = 33
+    Top = 37
+    Width = 130
+    TabOrder = 1
+    Text = '0'
+  end
+  object Poradie: TEdit
+    Left = 50
+    Height = 33
+    Top = 80
+    Width = 130
+    TabOrder = 2
+    Text = '0'
+  end
+  object Tabula: TMemo
+    Left = 528
+    Height = 477
+    Top = 16
+    Width = 48
+    TabOrder = 3
+  end
+  object Zavolaj: TButton
+    Left = 50
+    Height = 34
+    Top = 216
+    Width = 130
+    Caption = 'Zavolaj'
+    OnClick = ZavolajClick
+    TabOrder = 4
+  end
+  object PoradieZ: TEdit
+    Tag = 1
+    Left = 50
+    Height = 33
+    Top = 176
+    Width = 130
+    TabOrder = 5
+    Text = '1'
+  end
+  object Nacitaj: TButton
+    Left = 48
+    Height = 34
+    Top = 288
+    Width = 130
+    Caption = 'Nacitaj'
+    OnClick = NacitajClick
+    TabOrder = 6
+  end
+  object Zapis: TButton
+    Left = 50
+    Height = 34
+    Top = 328
+    Width = 128
+    Caption = 'Zapis'
+    OnClick = ZapisClick
+    TabOrder = 7
+  end
+  object na: TEdit
+    Left = 184
+    Height = 33
+    Top = 288
+    Width = 130
+    TabOrder = 8
+    Text = 'Nazov Suboru'
+  end
+  object Zav: TLabel
+    Left = 216
+    Height = 25
+    Top = 224
+    Width = 28
+    Caption = 'Zav'
+    ParentColor = False
+  end
+  object Prid: TLabel
+    Left = 216
+    Height = 25
+    Top = 56
+    Width = 31
+    Caption = 'Prid'
+    ParentColor = False
+  end
+end
